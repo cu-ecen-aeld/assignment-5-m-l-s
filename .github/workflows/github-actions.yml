@@ -1,5 +1,11 @@
 name: assignment-test
 on:
+    workflow_dispatch: 
+        tags-ignore:
+            - '*'
+        branches:
+            - '*'
+
     push:
         tags-ignore:
             - '*'
