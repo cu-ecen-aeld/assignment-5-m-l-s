@@ -15,8 +15,8 @@ env:
     FORCE_UNSAFE_CONFIGURE: 1
 jobs:
     full-test:
-        container: cuaesd/aesd-autotest:24-assignment4-buildroot
-        runs-on: ubuntu-latest
+        container: cuaesd/aesd-autotest:24-assignment5-buildroot
+        runs-on: self-hosted
         timeout-minutes: 120
         steps:
           - uses: actions/checkout@v2
